@@ -6,10 +6,10 @@ void main(List<String> arguments) {
 
   // The dart doesn't contains the different integers or double type
   int myAge = 21;
-  double mySgpa = 8.25;
+  double myMarks = 8.25;
   print(myAge.toString());
   print(myAge.isEven);
-  print(mySgpa.toString());
+  print(myMarks.toString());
 
   // int and double inherit from the num
 
@@ -19,7 +19,7 @@ void main(List<String> arguments) {
   bool isMarried = false;
   print(isMarried);
 
-  // Dynamic value decleration
+  // Dynamic value deceleration
 
   dynamic value = 12;
   value = 12.22;
@@ -30,7 +30,7 @@ void main(List<String> arguments) {
 
   print(value);
 
-  // All the variable decleared need not to be initilized only the finel variable need to be initilized at must
+  // All the variable declared need not to be initialized only the final variable need to be initialized at must
 
   final String myName = 'Shubham Kumar Anand';
   print(myName);
