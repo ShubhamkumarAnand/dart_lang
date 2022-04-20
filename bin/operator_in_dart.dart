@@ -1,4 +1,5 @@
 void main(List<String> args) {
+  // The arithmetic operator
   int result = 5 + 10 - 7 * 6;
   print(result);
 
@@ -31,4 +32,9 @@ void main(List<String> args) {
   double num = 12;
   num /= 7;
   print(num);
+
+  bool isEqual = (5 == 10);
+  print('Hello, The expression is ${isEqual}');
+
+  print('The value of the expression is ${12 + 32 + 65}');
 }
